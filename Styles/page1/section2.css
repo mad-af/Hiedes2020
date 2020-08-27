@@ -1,0 +1,44 @@
+.section2 {
+    height: 100vh;
+    padding: 0 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #e1e1e1;
+}
+
+/* DIV1 */
+.section2 .div1 {
+    height: 25em;
+    width: 15em;
+    background: red;
+}
+
+/* DIV2 */
+.section2 .div2 {
+    width: 15em;
+    text-align: center;
+}
+
+.section2 .div2 h3 {
+    font-size: 1.5em;
+    margin: 0 0 1.5em;
+}
+
+.section2 .div2 .by {
+    margin: 2em 0 0;
+}
+
+/* DIV3 */
+.section2 .div3 {
+    width: 5em;
+    font-size: 3.5em;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+}
+
+.section2 .div3 p {
+    color: rgb(66, 66, 66);
+    line-height: .9;
+}
