@@ -1,6 +1,6 @@
 .section2 {
     height: 100vh;
-    padding: 0 10em;
+    /* padding: 0 10em; */
     display: flex;
     align-items: center;
     justify-content: space-around;
