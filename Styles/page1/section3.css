@@ -1,0 +1,62 @@
+.section3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: chocolate;
+}
+
+.section3 .slider {
+    left: 0;
+    width: 330em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.section3 .slider .contents {
+    width: 55em;
+    height: 20em;
+    margin: 0 1em 0 10em;
+    display: inline-flex;
+    background: crimson;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+}
+
+.section3 .slider .contents img {
+    width: 20em;
+    height: 20em;
+    background: cornflowerblue;
+}
+
+.section3 .slider .contents .items {
+    padding: 3.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section3 .slider .contents .items h1 {
+    padding: 0 0 .4em;
+}
+
+.section3 .slider .contents .items .button {
+    bottom: 0;
+    display: inline-flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.section3 .slider .contents .items .button span {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 .1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: cyan;
+}
